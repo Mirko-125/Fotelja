@@ -10,6 +10,7 @@ public class HandMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        Debug.Log("Test1");
     }
 
     void Update()
